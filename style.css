@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Evita barras de desplazamiento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 231, 223);
+}
+
+
+.bitcount-single {
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+h1 {
+    font-family: "Bitcount Single", serif;
+    color: rgb(237, 231, 223);
+    margin-bottom: 20px;
+}
+
+#tarjeta {
+    border: 2px solid pink;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(165, 42, 42, 0.616); 
+    background-color: brown;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.corazon {
+    height: 300px;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.botones {
+    padding: 10px 20px;
+    font-size: 16px;
+    top: 50%;
+    cursor: pointer;
+    background-color: rgb(237, 231, 223);
+    border-radius: 30px;
+    border-color: brown;
+}
+
+
+#miBotton2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+/* ANIMACIÓN */
+    transition: all 1s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
